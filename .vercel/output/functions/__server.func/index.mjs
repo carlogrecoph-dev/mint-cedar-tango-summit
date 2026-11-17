@@ -15,7 +15,9 @@ var grokOgIdentity = { "site": {
 	"title": "M.A.D.S. Triennale",
 	"card": "custom",
 	"color": "070615",
-	"image": "/og.jpg"
+	"description": "The living art world, 2027–2029. An international artist advisory: curatorial partnership, representation, and a place in the MADSVERSE.",
+	"image": "/og.jpg",
+	"banner": "/x-banner.jpg"
 } };
 //#endregion
 //#region scripts/grok-pwa-shared.mjs

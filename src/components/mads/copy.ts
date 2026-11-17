@@ -138,6 +138,13 @@ export const ui = {
     it: "Scopri il concept, l'ecosistema digitale e il percorso annuale nel comunicato stampa in lingua inglese.",
   },
   download: { en: "Download press release", it: "Scarica comunicato stampa" },
+  shareKicker: { en: "Take the page", it: "Porta la pagina" },
+  shareTitle: { en: "Send it on WhatsApp.", it: "Inviala su WhatsApp." },
+  shareLead: {
+    en: "Download the page as one file. Open it in any browser, or forward it as a document.",
+    it: "Scarica la pagina in un unico file. Si apre in qualsiasi browser, oppure inoltrala come documento.",
+  },
+  shareDownload: { en: "Download the page", it: "Scarica la pagina" },
   pressMeta: {
     en: "PDF · English · Official M.A.D.S. press release",
     it: "PDF · Inglese · Comunicato ufficiale M.A.D.S.",

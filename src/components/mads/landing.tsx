@@ -185,13 +185,14 @@ function Shell() {
             <span>2028</span>
             <span>2029</span>
           </div>
-          <div className="relative z-10 mx-auto grid w-full min-w-0 max-w-6xl gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end lg:py-24">
-            <div>
+          <div className="relative z-10 mx-auto grid w-full min-w-0 max-w-6xl gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:items-end lg:py-24">
+            <div className="title-box min-w-0">
               <p className="kicker rise rise-1 text-gold">{t(ui.eyebrow)}</p>
               <h1 className="display hero-title mt-5 text-paper">
                 <span className="rise rise-2 block">ART</span>
                 <em className="rise rise-3 block text-gold not-italic sm:italic">{lang === "en" ? "NEVER" : "NON SI"}</em>
-                <span className="rise rise-4 block">{lang === "en" ? "STOPS HERE." : "FERMA QUI."}</span>
+                <span className="rise rise-4 block">{lang === "en" ? "STOPS" : "FERMA"}</span>
+                <span className="rise rise-4 block">{lang === "en" ? "HERE." : "QUI."}</span>
               </h1>
               <p className="rise rise-5 mt-6 max-w-xl text-lg text-paper/80">{t(ui.heroLead)}</p>
               <div className="rise rise-6 mt-8 flex flex-col gap-3 sm:flex-row">
@@ -222,9 +223,9 @@ function Shell() {
         </div>
 
         <section id="vision" className="mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 lg:grid-cols-2 lg:py-32">
-          <div className="reveal">
+          <div className="title-box reveal min-w-0">
             <p className="kicker text-gold">{t(ui.k01)}</p>
-            <h2 className="display mt-4 text-5xl text-paper sm:text-7xl">
+            <h2 className="display title mt-4 text-paper">
               {t(ui.visionTitleA)} <em className="text-pink">{t(ui.visionTitleB)}</em>
             </h2>
             <p className="mt-6 max-w-xl text-paper/75">{t(ui.visionLead)}</p>
@@ -242,9 +243,9 @@ function Shell() {
         <section id="programme" className="border-t border-paper/10 bg-ink">
           <div className="mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32">
             <div className="reveal flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-              <div className="max-w-xl">
+              <div className="title-box max-w-xl">
                 <p className="kicker text-gold">{t(ui.k02)}</p>
-                <h2 className="display mt-4 text-5xl sm:text-7xl">
+                <h2 className="display title mt-4">
                   {t(ui.ecoTitleA)}
                   <span className="mt-2 block text-aqua italic">{t(ui.ecoTitleB)}</span>
                 </h2>
@@ -276,9 +277,9 @@ function Shell() {
           <img src="/art/city.jpg" alt="" className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-ink/78" />
           <div className="relative mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32">
-            <div className="reveal max-w-3xl">
+            <div className="title-box reveal max-w-3xl">
               <p className="kicker text-gold">{t(ui.k03)}</p>
-              <h2 className="display mt-4 text-5xl sm:text-7xl">
+              <h2 className="display title mt-4">
                 {t(ui.worldTitleA)}
                 <span className="mt-2 block italic text-gold">{t(ui.worldTitleB)}</span>
               </h2>
@@ -306,15 +307,15 @@ function Shell() {
         </section>
 
         <section id="freedom" className="bg-paper text-ink">
-          <div className="mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32">
+          <div className="title-box mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32">
             <div className="reveal">
               <p className="kicker text-pink">{t(ui.k04)}</p>
-              <h2 className="display mt-4 text-5xl sm:text-8xl">
+              <h2 className="display title mt-4">
                 {t(ui.freeTitleA)} <em>{t(ui.freeTitleB)}</em>
               </h2>
               <p className="mt-6 max-w-2xl text-lg text-ink/75">{t(ui.freeLead)}</p>
             </div>
-            <p className="reveal display statement mt-16 text-4xl sm:text-7xl">
+            <p className="reveal display title statement mt-16">
               {t(ui.aliveA)} <span className="text-pink">{t(ui.aliveB)}</span>
               <span className="mt-3 block">{t(ui.aliveC)}</span>
             </p>
@@ -328,16 +329,16 @@ function Shell() {
           </div>
         </section>
 
-        <section id="finale" className="relative min-h-[80svh] overflow-hidden">
+        <section id="finale" className="finale-stage relative min-h-[80svh] overflow-hidden">
           <img src="/art/finale.jpg" alt={t(ui.finaleAlt)} className="absolute inset-0 h-full w-full object-cover" />
           <div className="finale-veil absolute inset-0" />
           <p className="year-mark pointer-events-none absolute right-0 bottom-0 text-paper/20" aria-hidden="true">
             2029
           </p>
           <div className="relative mx-auto flex min-h-[80svh] max-w-6xl items-end px-5 py-28 sm:px-8 lg:py-36">
-            <div className="reveal relative max-w-2xl">
+            <div className="title-box reveal relative max-w-2xl">
               <p className="kicker text-gold">{t(ui.k05)}</p>
-              <h2 className="display mt-4 text-5xl sm:text-7xl">
+              <h2 className="display title mt-4">
                 {t(ui.finaleTitleA)}
                 <span className="mt-2 block italic text-aqua">{t(ui.finaleTitleB)}</span>
               </h2>
@@ -348,9 +349,9 @@ function Shell() {
 
         <section id="advisory" className="border-t border-paper/10">
           <div className="mx-auto grid max-w-6xl gap-10 px-5 py-24 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:py-32">
-            <div className="reveal">
+            <div className="title-box reveal min-w-0">
               <p className="kicker text-gold">{t(ui.k06)}</p>
-              <h2 className="display mt-4 text-5xl sm:text-7xl">
+              <h2 className="display title mt-4">
                 {t(ui.teamTitleA)}
                 <span className="mt-2 block italic text-pink">{t(ui.teamTitleB)}</span>
               </h2>
@@ -379,9 +380,9 @@ function Shell() {
 
         <section id="apply" className="border-t border-paper/10">
           <div className="mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:py-32">
-            <div className="reveal">
+            <div className="title-box reveal min-w-0">
               <p className="kicker text-gold">{t(ui.k07)}</p>
-              <h2 className="display mt-4 text-5xl sm:text-7xl">
+              <h2 className="display title mt-4">
                 {t(ui.talkA)}
                 <span className="mt-2 block italic text-gold">{t(ui.talkB)}</span>
               </h2>
@@ -412,6 +413,22 @@ function Shell() {
           </div>
         </section>
       </main>
+
+      <section id="share" className="border-t border-paper/10">
+        <div className="mx-auto grid max-w-6xl items-end gap-8 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-[minmax(0,1fr)_auto]">
+          <div className="title-box min-w-0 max-w-2xl">
+            <p className="kicker text-gold">{t(ui.shareKicker)}</p>
+            <h2 className="display title mt-4 text-paper">{t(ui.shareTitle)}</h2>
+            <p className="mt-4 max-w-xl text-paper/75">{t(ui.shareLead)}</p>
+          </div>
+          <Button asChild>
+            <a href="/MADS_TRIENNALE_index.html" download="MADS_TRIENNALE_index.html">
+              <Download aria-hidden="true" className="size-4" />
+              {t(ui.shareDownload)}
+            </a>
+          </Button>
+        </div>
+      </section>
 
       <footer className="border-t border-paper/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-10 text-sm text-paper/70 sm:px-8 md:flex-row md:items-end md:justify-between">

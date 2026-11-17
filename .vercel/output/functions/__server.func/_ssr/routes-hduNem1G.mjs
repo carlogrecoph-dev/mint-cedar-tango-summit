@@ -5,7 +5,7 @@ import { a as Check, c as ArrowLeft, i as Download, o as ArrowUpRight, r as Menu
 import { t as Slot } from "../_libs/radix-ui__react-slot.mjs";
 import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CJ5RIATo.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-hduNem1G.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var ui = {
@@ -1263,54 +1263,61 @@ function Shell() {
 							]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "relative z-10 mx-auto grid w-full min-w-0 max-w-6xl gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end lg:py-24",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "kicker rise rise-1 text-gold",
-									children: t(ui.eyebrow)
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
-									className: "display hero-title mt-5 text-paper",
-									children: [
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "rise rise-2 block",
-											children: "ART"
-										}),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", {
-											className: "rise rise-3 block text-gold not-italic sm:italic",
-											children: lang === "en" ? "NEVER" : "NON SI"
-										}),
-										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "rise rise-4 block",
-											children: lang === "en" ? "STOPS HERE." : "FERMA QUI."
-										})
-									]
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "rise rise-5 mt-6 max-w-xl text-lg text-paper/80",
-									children: t(ui.heroLead)
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "rise rise-6 mt-8 flex flex-col gap-3 sm:flex-row",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-										asChild: true,
-										children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-											href: "#programme",
-											children: [t(ui.exploreYear), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {
-												"aria-hidden": "true",
-												className: "size-4"
-											})]
-										})
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-										asChild: true,
-										variant: "secondary",
-										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-											href: "#vision",
-											children: t(ui.discoverProject)
-										})
-									})]
-								})
-							] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "relative z-10 mx-auto grid w-full min-w-0 max-w-6xl gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:items-end lg:py-24",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "title-box min-w-0",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "kicker rise rise-1 text-gold",
+										children: t(ui.eyebrow)
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
+										className: "display hero-title mt-5 text-paper",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "rise rise-2 block",
+												children: "ART"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("em", {
+												className: "rise rise-3 block text-gold not-italic sm:italic",
+												children: lang === "en" ? "NEVER" : "NON SI"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "rise rise-4 block",
+												children: lang === "en" ? "STOPS" : "FERMA"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "rise rise-4 block",
+												children: lang === "en" ? "HERE." : "QUI."
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "rise rise-5 mt-6 max-w-xl text-lg text-paper/80",
+										children: t(ui.heroLead)
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "rise rise-6 mt-8 flex flex-col gap-3 sm:flex-row",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+											asChild: true,
+											children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+												href: "#programme",
+												children: [t(ui.exploreYear), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, {
+													"aria-hidden": "true",
+													className: "size-4"
+												})]
+											})
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+											asChild: true,
+											variant: "secondary",
+											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+												href: "#vision",
+												children: t(ui.discoverProject)
+											})
+										})]
+									})
+								]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "rise rise-6 pace-row",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: t(ui.pace) }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-aqua",
@@ -1332,14 +1339,14 @@ function Shell() {
 					id: "vision",
 					className: "mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 lg:grid-cols-2 lg:py-32",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "reveal",
+						className: "title-box reveal min-w-0",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 								className: "kicker text-gold",
 								children: t(ui.k01)
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-								className: "display mt-4 text-5xl text-paper sm:text-7xl",
+								className: "display title mt-4 text-paper",
 								children: [
 									t(ui.visionTitleA),
 									" ",
@@ -1376,14 +1383,14 @@ function Shell() {
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "reveal flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "max-w-xl",
+								className: "title-box max-w-xl",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "kicker text-gold",
 										children: t(ui.k02)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-										className: "display mt-4 text-5xl sm:text-7xl",
+										className: "display title mt-4",
 										children: [t(ui.ecoTitleA), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "mt-2 block text-aqua italic",
 											children: t(ui.ecoTitleB)
@@ -1451,14 +1458,14 @@ function Shell() {
 							className: "relative mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "reveal max-w-3xl",
+									className: "title-box reveal max-w-3xl",
 									children: [
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 											className: "kicker text-gold",
 											children: t(ui.k03)
 										}),
 										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-											className: "display mt-4 text-5xl sm:text-7xl",
+											className: "display title mt-4",
 											children: [t(ui.worldTitleA), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 												className: "mt-2 block italic text-gold",
 												children: t(ui.worldTitleB)
@@ -1517,7 +1524,7 @@ function Shell() {
 					id: "freedom",
 					className: "bg-paper text-ink",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32",
+						className: "title-box mx-auto max-w-6xl px-5 py-24 sm:px-8 lg:py-32",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "reveal",
@@ -1527,7 +1534,7 @@ function Shell() {
 										children: t(ui.k04)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-										className: "display mt-4 text-5xl sm:text-8xl",
+										className: "display title mt-4",
 										children: [
 											t(ui.freeTitleA),
 											" ",
@@ -1541,7 +1548,7 @@ function Shell() {
 								]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-								className: "reveal display statement mt-16 text-4xl sm:text-7xl",
+								className: "reveal display title statement mt-16",
 								children: [
 									t(ui.aliveA),
 									" ",
@@ -1571,7 +1578,7 @@ function Shell() {
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 					id: "finale",
-					className: "relative min-h-[80svh] overflow-hidden",
+					className: "finale-stage relative min-h-[80svh] overflow-hidden",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "/art/finale.jpg",
@@ -1587,14 +1594,14 @@ function Shell() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "relative mx-auto flex min-h-[80svh] max-w-6xl items-end px-5 py-28 sm:px-8 lg:py-36",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "reveal relative max-w-2xl",
+								className: "title-box reveal relative max-w-2xl",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 										className: "kicker text-gold",
 										children: t(ui.k05)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-										className: "display mt-4 text-5xl sm:text-7xl",
+										className: "display title mt-4",
 										children: [t(ui.finaleTitleA), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 											className: "mt-2 block italic text-aqua",
 											children: t(ui.finaleTitleB)
@@ -1615,14 +1622,14 @@ function Shell() {
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "mx-auto grid max-w-6xl gap-10 px-5 py-24 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:py-32",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "reveal",
+							className: "title-box reveal min-w-0",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 									className: "kicker text-gold",
 									children: t(ui.k06)
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-									className: "display mt-4 text-5xl sm:text-7xl",
+									className: "display title mt-4",
 									children: [t(ui.teamTitleA), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "mt-2 block italic text-pink",
 										children: t(ui.teamTitleB)
@@ -1679,14 +1686,14 @@ function Shell() {
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "mx-auto grid max-w-6xl gap-12 px-5 py-24 sm:px-8 lg:grid-cols-[0.85fr_1.15fr] lg:py-32",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "reveal",
+							className: "title-box reveal min-w-0",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 									className: "kicker text-gold",
 									children: t(ui.k07)
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
-									className: "display mt-4 text-5xl sm:text-7xl",
+									className: "display title mt-4",
 									children: [t(ui.talkA), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "mt-2 block italic text-gold",
 										children: t(ui.talkB)

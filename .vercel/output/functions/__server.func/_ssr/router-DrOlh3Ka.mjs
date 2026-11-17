@@ -3,8 +3,8 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { _ as createFileRoute, b as require_jsx_runtime, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRoute, y as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-pQp0SGPb.js
-var router_pQp0SGPb_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DrOlh3Ka.js
+var router_DrOlh3Ka_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -332,7 +332,7 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-_DblCjm9.css";
+var styles_default = "/assets/styles-BoybqBWr.css";
 var APP_NAME = "M.A.D.S. TRIENNALE | The Living Art World";
 var Route$1 = createRootRoute({
 	head: () => ({
@@ -395,7 +395,7 @@ var Route$1 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter = () => import("./routes-CJ5RIATo.mjs");
+var $$splitComponentImporter = () => import("./routes-hduNem1G.mjs");
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter, "component") }).update({
 	id: "/",
 	path: "/",
@@ -411,4 +411,4 @@ function getRouter() {
 	});
 }
 //#endregion
-export { getRouter, router_pQp0SGPb_exports as t };
+export { getRouter, router_DrOlh3Ka_exports as t };
